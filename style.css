@@ -1,0 +1,46 @@
+body {
+	background-color: rgb(230, 230, 230);
+	color: rgb(25, 25, 25);
+	font-family:font-family: 'Lora', serif;
+	font-size: 17px;
+	width: 700px;
+	margin: 40px auto;
+}
+
+h1, h2, h3 {
+	font-family: font-family: 'Roboto', sans-serif;
+	width: 700px;
+	margin: 40px auto;
+}
+
+h1 {
+	color: red;
+	font-weight: lighter;
+	letter-spacing: 10px;
+	font-size: 60px;
+}	
+
+h2 {
+	color: green;
+	font-weight: 100px;
+}
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+
+
